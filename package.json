@@ -1,0 +1,21 @@
+{
+  "name": "ms-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "env-cmd -f ./config/dev.env nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "mongoose": "^7.1.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "node-env-run": "^4.0.2"
+  }
+}
